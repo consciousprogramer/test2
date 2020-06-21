@@ -7,3 +7,6 @@ def index(request):
 
 def newview(request):
     return HttpResponse("newview added")
+
+def branchview(request):
+    return HttpResponse("this is branch view")
