@@ -4,3 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 def index(request):
     return HttpResponse("hello! world")
+
+def newview(request):
+    return HttpResponse("newview added")
