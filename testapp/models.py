@@ -6,4 +6,4 @@ class student(models.Model):
     age = models.PositiveIntegerField()
 
     def __str__(self):
-        return self.name
+        return f"{self.name} and his ageis {self.age}"
